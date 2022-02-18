@@ -71,18 +71,12 @@
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="projects.html">Publications</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="projects.html">Publications</a></li>
 							<li class="has-dropdown">
 								<a href="gallery.html">Gallery</a>
-								<ul class="dropdown">
-									<li><a href="#">Events</a></li>
-									<li><a href="#">Food</a></li>
-									<li><a href="#">Coffees</a></li>
-								</ul>
-							</li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="./images/cv.pdf" download="cv">CV</a></li>
 						</ul>
 					</div>
 				</div>
@@ -91,23 +85,58 @@
 		<!-- </div> -->
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>See <em>Our</em> Publications</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+		
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section-title">
+      <video autoplay muted loop id="bg-video">
+          <source src="images/background.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h2 style="font-size:50px"><em>See our Publications</em></h2>
+              <div class="main-button">
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+		
 
 	<div id="fh5co-featured-testimony" class="fh5co-section">
 		<div class="container">
+			
+			<div class="row">
+	                        <div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
+					<img src="images/polynet.jpg" alt="">
+				</div>
+				<div class="col-md-6 col-md-push-1 animate-box">
+					<div class="section-heading">
+						<h2 style="font-family:'Times New Roman';color:#98AFC7;font-size:30px">PolyNet: Polynomial Neural Network for 3D Shape Recognition with PolyShape Representation.</h2>
+						<p style="font-family:'Courier';color:#FFDAB9;font-size:20px"> Mohsen Yavartanoo, Shih-Hsuan Hung, Reyhaneh Neshatavar, Yue Zhang, Kyoung Mu Lee</p>
+						<p style="font-family:'Times';color:#C04000;font-size:25px"> In <b> ICCV2021 <b> </p>
+						<p><a href="https://arxiv.org/abs/2110.07882" class="btn btn-primary btn-outline">arXiv</a> <a href="https://myavartanoo.github.io/polynet/" class="btn btn-primary btn-outline">Project Page</a> <a href="https://github.com/myavartanoo/PolyNet_PyTorch" class="btn btn-primary btn-outline">Code</a>  <a href="https://youtube.com/playlist?list=PLhCEMvtuQ92VkQCsiMKSn5ORcYM3BA1eM" class="btn btn-primary btn-outline">Presentation</a> </p>
+					</div>
+				</div>
+			</div>
+
+					
+			<div class="row">
+	                        <div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
+					<img src="images/3dias.jpg" alt="">
+				</div>
+				<div class="col-md-6 col-md-push-1 animate-box">
+					<div class="section-heading">
+						<h2 style="font-family:'Times New Roman';color:#98AFC7;font-size:30px">3DIAS: 3D Shape Reconstruction with Implicit Algebraic Surfaces.</h2>
+						<p style="font-family:'Courier';color:#FFDAB9;font-size:20px"> <b>Mohsen Yavartanoo*<b>, aeyoung Chung*, Reyhaneh Neshatavar, Kyoung Mu Lee </p>
+						<p style="font-family:'Times';color:#C04000;font-size:25px"> In <b> ICCV2021 <b> </p>
+						<p><a href="https://arxiv.org/abs/2108.08653" class="btn btn-primary btn-outline">arXiv</a> <a href="https://myavartanoo.github.io/3dias/" class="btn btn-primary btn-outline">Project Page</a> <a href="https://github.com/myavartanoo/3DIAS_PyTorch" class="btn btn-primary btn-outline">Code</a>  <a href="https://youtube.com/playlist?list=PLhCEMvtuQ92VjjKVfnUUaSFJGJJXM2ulN" class="btn btn-primary btn-outline">Presentation</a> </p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
 					<h2 style="font-family:'Times New Roman';font-size:60px"> International Conferances</h2>
@@ -115,7 +144,7 @@
 					</div>
 				</div> 
 	                        <div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/SPNet.png" alt="">
+					<img src="images/spnet.jpg" alt="">
 				</div>
 				<div class="col-md-6 col-md-push-1 animate-box">
 					<div class="section-heading">
@@ -127,91 +156,20 @@
 				</div>
 			</div>
 			
-			<div class="row">
-	                        <div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/3DIAS.png" alt="">
-				</div>
-				<div class="col-md-6 col-md-push-1 animate-box">
-					<div class="section-heading">
-						<h2 style="font-family:'Times New Roman';color:#98AFC7;font-size:30px">3DIAS: 3D Shape Reconstruction with Implicit Algebraic Surfaces.</h2>
-						<p style="font-family:'Courier';color:#FFDAB9;font-size:20px"> <b>Mohsen Yavartanoo*<b>, aeyoung Chung*, Reyhaneh Neshatavar, Kyoung Mu Lee </p>
-						<p style="font-family:'Times';color:#C04000;font-size:25px"> In <b> ICCV2021 <b> </p>
-						<p><a href="#" class="btn btn-primary btn-outline">arXiv</a> <a href="#" class="btn btn-primary btn-outline">Project Page</a> <a href="#" class="btn btn-primary btn-outline">Code</a>  <a href="#" class="btn btn-primary btn-outline">Poseter</a> </p>
-					</div>
-				</div>
-			</div>
+
 		</div>
 	</div>
 
 		
 		
-	
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Book a Table</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
-					<p><a href="reservation.html" class="btn btn-primary btn-outline">Book Now</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
 		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget">
-					<h4>Tasty</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-				</div>
-				<div class="col-md-2 col-md-push-1 fh5co-widget">
-					<h4>Links</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-2 col-md-push-1 fh5co-widget">
-					<h4>Categories</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Landing Page</a></li>
-						<li><a href="#">Real Estate</a></li>
-						<li><a href="#">Personal</a></li>
-						<li><a href="#">Business</a></li>
-						<li><a href="#">e-Commerce</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-4 col-md-push-1 fh5co-widget">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://https://freehtml5.co">freehtml5.co</a></li>
-					</ul>
-				</div>
-
-			</div>
-
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
 						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-						</ul>
 					</p>
 				</div>
 			</div>
