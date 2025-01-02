@@ -2,15 +2,16 @@
 
 [![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+I am a Postdoctoral Researcher at Seoul National University (SNU), specializing in 3D vision, CAD learning, image processing, and un/self-supervised learning. My work focuses on developing algorithms to process 3D visual data, enhance CAD-based learning systems, and improve image processing techniques while reducing reliance on labeled datasets, driving advancements in AI applications 
 
 #### Email
-sli[at]cumt.edu.cn
+myavartanoo[at]snu.ac.kr
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+Ph.D., Electrical and Computer Engineering, Seoul National University, 2019—2024.\
+M.S., Electrical and Computer Engineering, Seoul National University, 2017—2019.\
+B.S., Mathematics, Sharif University of Technology, 2011—2016.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+3D Vision, CAD Learning, Image Processing, and Un/Self-supervised Learning.
 
