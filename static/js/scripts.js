@@ -1,56 +1,65 @@
-// Collapsible Hugo code blocks
-// by Jiri De Jagere, @JiriDJ
 
-var height = "300px";
 
-if (
-  document.readyState === "complete" ||
-    (document.readyState !== "loading" && !document.documentElement.doScroll)
-) {
-  makeCollapsible();
-} else {
-  document.addEventListener("DOMContentLoaded", makeCollapsible);
-}
+const content_dir = 'contents/'
+const config_file = 'config.yml'
+const section_names = ['home', 'publications', 'awards']
 
-function toggle(e) {
-  e.preventDefault();
-  var link = e.target;
-  var div = link.parentElement.parentElement;
 
-  if (link.innerHTML == "more&nbsp;") {
-    link.innerHTML = "less&nbsp;";
-    div.style.maxHeight = "";
-    div.style.overflow = "none";
-  }
-  else {
-    link.innerHTML = "more&nbsp;";
-    div.style.maxHeight = height;
-    div.style.overflow = "hidden";
-    div.scrollIntoView({ behavior: 'smooth' });
-  }
-}
+window.addEventListener('DOMContentLoaded', event => {
 
-function makeCollapsible() {
-  var divs = document.querySelectorAll('.highlight-wrapper');
+    // Activate Bootstrap scrollspy on the main nav element
+    const mainNav = document.body.querySelector('#mainNav');
+    if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#mainNav',
+            offset: 74,
+        });
+    };
 
-  for (i=0; i < divs.length; i++) {
-    var div = divs[i];
-    if (div.offsetHeight > parseInt(height, 10)) {
-      div.style.maxHeight = height;
-      div.style.overflow = "hidden";
+    // Collapse responsive navbar when toggler is visible
+    const navbarToggler = document.body.querySelector('.navbar-toggler');
+    const responsiveNavItems = [].slice.call(
+        document.querySelectorAll('#navbarResponsive .nav-link')
+    );
+    responsiveNavItems.map(function (responsiveNavItem) {
+        responsiveNavItem.addEventListener('click', () => {
+            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                navbarToggler.click();
+            }
+        });
+    });
 
-      var e = document.createElement('div');
-      e.className = "highlight-link";
 
-      var html = '<a href="">more&nbsp;</a>';
-      e.innerHTML = html;
-      div.appendChild(e);
-    }
-  }
+    // Yaml
+    fetch(content_dir + config_file)
+        .then(response => response.text())
+        .then(text => {
+            const yml = jsyaml.load(text);
+            Object.keys(yml).forEach(key => {
+                try {
+                    document.getElementById(key).innerHTML = yml[key];
+                } catch {
+                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
+                }
 
-  var links = document.querySelectorAll('.highlight-link');
-  for (i=0; i<links.length; i++) {
-    var link = links[i];
-    link.addEventListener('click', toggle);
-  }
-}
+            })
+        })
+        .catch(error => console.log(error));
+
+
+    // Marked
+    marked.use({ mangle: false, headerIds: false })
+    section_names.forEach((name, idx) => {
+        fetch(content_dir + name + '.md')
+            .then(response => response.text())
+            .then(markdown => {
+                const html = marked.parse(markdown);
+                document.getElementById(name + '-md').innerHTML = html;
+            }).then(() => {
+                // MathJax
+                MathJax.typeset();
+            })
+            .catch(error => console.log(error));
+    })
+
+}); 
