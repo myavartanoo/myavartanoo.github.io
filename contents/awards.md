@@ -1,13 +1,15 @@
-- National Scholarship of Graduate Student, 2024.
+### Distinguished Dissertation Award
+I received the **Distinguished Dissertation Award** for my Ph.D. dissertation at Seoul National University, recognizing the exceptional quality and impact of my research.
 
-- First-prize Scholarship of CUMT, 2024.
+### Outstanding Paper Award
+We received this award because our paper was selected as an excellent paper (Gold Prize) at the 33rd Workshop on Image Processing and Understanding (IPIU2021).
 
-- First-prize Scholarship of CUMT, 2023.
+### Ph.D. Scholarships
+I received Graduate Scholarship for Excellent Foreign Students (GSFS) from Seoul National University during my Ph.D.
 
-- Freshman Scholarship of CUMT, 2022.
+### Master Scholarships
+I received various scholarships incluing Global Scholarship (GS) from Seoul National University during my master’s program.
 
-- Excellent Graduation Project of Jiangsu Province, 2022.
 
-- First-prize Enterprise Scholarship of CUMT, 2020.
 
-- First-prize Scholarship of CUMT, 2019.
+
