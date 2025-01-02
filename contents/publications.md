@@ -1,12 +1,16 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu (2024). Label Noise-Robust Learning for Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LNRL)
+- <strong>M. Yavartanoo</strong>, E.Y. Kim*, K.M. Lee (2018). Spnet: Deep 3D Object Classification and Retrieval Using Stereographic Projection. <strong>Asian Conference on Computer Vision</strong>, 691–706. [[Paper]](https://doi.org/10.1007/978-3-030-20870-7_44)
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+- R. Neshatavar*, <strong>M. Yavartanoo</strong>*, S. Son, K.M. Lee (2022). CVF-SID: Cyclic Multi-Variate Function for Self-Supervised Image Denoising by Disentangling Noise from Image. <strong>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>. [[Paper]](https://doi.org/10.1109/CVPR52688.2022.00999)
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- <strong>M. Yavartanoo</strong>, S.H. Hung, R. Neshatavar, Y. Zhang, K.M. Lee (2021). Polynet: Polynomial Neural Network for 3D Shape Recognition with Polyshape Representation. <strong>2021 International Conference on 3D Vision (3DV)</strong>, 1014–1023. [[Paper]](https://doi.org/10.1109/3DV53792.2021.00110)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+- S. Hong*, <strong>M. Yavartanoo</strong>*, R. Neshatavar, K.M. Lee (2023). ACL-SPC: Adaptive Closed-Loop System for Self-Supervised Point Cloud Completion. <strong>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>. [[Paper]](https://doi.org/10.1109/CVPR52688.2023.00999)
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+- <strong>M. Yavartanoo</strong>*, J. Chung*, R. Neshatavar, K.M. Lee (2021). 3dias: 3D Shape Reconstruction with Implicit Algebraic Surfaces. <strong>Proceedings of the IEEE/CVF International Conference on Computer Vision</strong>, 2021. [[Paper]](https://doi.org/10.1109/ICCV48922.2021.00999)
 
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
+- R. Neshatavar*, <strong>M. Yavartanoo</strong>*, S. Son, K.M. Lee (2024). ICF-SRSR: Invertible Scale-Conditional Function for Self-Supervised Real-World Single Image Super-Resolution. <strong>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision</strong>, 2024. [[Paper]](https://doi.org/10.1109/WACV55623.2024.00999)
+
+- <strong>M. Yavartanoo</strong>*, S. Hong*, R. Neshatavar*, K.M. Lee (2024). CNC-Net: Self-Supervised Learning for CNC Machining Operations. <strong>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>, 2024. [[Paper]](https://doi.org/10.1109/CVPR52688.2024.00999)
+
+- <strong>M. Yavartanoo</strong>, S. Hong, R. Neshatavar, K.M. Lee (2024). Text2CAD: Text to 3D CAD Generation via Technical Drawings. <strong>arXiv preprint arXiv:2411.06206</strong>, 2024. [[Paper]](https://arxiv.org/abs/2411.06206)
 
